@@ -5,7 +5,6 @@ import SliderTwo from "../SliderTwo/SliderTwo";
 
 function SamplePrevArrowLarge(props) {
   const { className, style, onClick } = props;
-  console.log(className + style);
   return (
     <div
       className="slick-arrow"
@@ -25,7 +24,6 @@ function SamplePrevArrowLarge(props) {
 
 function SampleNextArrowLarge(props) {
   const { className, style, onClick } = props;
-  console.log(className + style);
   return (
     <div
       className="slick-arrow"
@@ -45,7 +43,6 @@ function SampleNextArrowLarge(props) {
 
 function SamplePrevArrowSmall(props) {
     const { className, style, onClick } = props;
-    console.log(className + style);
     return (
       <div
         className="slick-arrow"
@@ -64,7 +61,6 @@ function SamplePrevArrowSmall(props) {
   
   function SampleNextArrowSmall(props) {
     const { className, style, onClick } = props;
-    console.log(className + style);
     return (
       <div
         className="slick-arrow"
@@ -89,12 +85,7 @@ const settingsLarge = {
   slidesToScroll: 1,
   swipeToSlide: true,
   nextArrow: <SampleNextArrowLarge />,
-  prevArrow: <SamplePrevArrowLarge />,
-  afterChange: function(index) {
-    console.log(
-      `Slider Changed to: ${index + 1}, background: #222; color: #bada55`
-    );
-  }
+  prevArrow: <SamplePrevArrowLarge />
 };
 
 const settingsSmall = {
@@ -105,12 +96,7 @@ const settingsSmall = {
     slidesToScroll: 1,
     swipeToSlide: true,
     nextArrow: <SampleNextArrowSmall />,
-    prevArrow: <SamplePrevArrowSmall />,
-    afterChange: function(index) {
-      console.log(
-        `Slider Changed to: ${index + 1}, background: #222; color: #bada55`
-      );
-    }
+    prevArrow: <SamplePrevArrowSmall />
   };
 
 function Carousel(){
@@ -125,9 +111,9 @@ function Carousel(){
         setDisplay("block");
       }
       else if(display === "block"){
-        document.getElementById("drop-carousel").classList.toggle("slide-down");
-        document.getElementById("sliding-wrapper").style.display="none";
         setDisplay("none");
+        document.getElementById("drop-carousel").classList.toggle("slide-down");
+        
       }
     }
 
@@ -201,8 +187,6 @@ function Carousel(){
 
         <p className="country-count">10 Countries</p>
             <br></br>
-            {/* {open} */}
-
            <div id="drop-carousel">
            <SliderTwo />
            </div>

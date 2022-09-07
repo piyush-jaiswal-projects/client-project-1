@@ -5,11 +5,12 @@ import "./shiftBar.css";
 export default function ShiftBar() {
 
     // FUNCTION TO AUTO CLOSE NAVIGATION DIV
-    window.addEventListener('resize', function (event) {
-        var width = window.innerWidth;
-        if (width > 690)
-            document.getElementById("shiftDropDiv").style.display = "none"
-    });
+    // let x = document.getElementsByClassName("shift-drop-down-div");
+    // window.addEventListener('resize', function (event) {
+    //     var width = window.innerWidth;
+    //     if (width > 690)
+    //         x.style.display = "none"
+    // });
 
     function showDocuments() {
         document.getElementById("document").style.display = "flex";

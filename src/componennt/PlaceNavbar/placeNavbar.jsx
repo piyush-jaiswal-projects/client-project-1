@@ -5,11 +5,11 @@ import { Link } from "react-router-dom";
 function Header() {
 
   // Code to automatically close dropdown box on larger screens
-  window.addEventListener('resize', function (event) {
-    var width = window.innerWidth;
-    if (width > 690)
-      document.getElementById("dropDiv").style.display = "none"
-  });
+  // window.addEventListener('resize', function (event) {
+  //   var width = window.innerWidth;
+  //   if (width > 690)
+  //     document.getElementById("dropDiv").style.display = "none"
+  // });
 
 
   // Declaration of state toeffect visibility of components

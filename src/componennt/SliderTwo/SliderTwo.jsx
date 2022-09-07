@@ -3,10 +3,8 @@ import "react-multi-carousel/lib/styles.css";
 import classes from "./SliderTwo.module.css";
 import {Link} from "react-router-dom";
 function SliderTwo({ showData }) {
-  console.log(showData);
   const responsive = {
     superLargeDesktop: {
-      // the naming can be any, depends on you.
       breakpoint: { max: 4000, min: 3000 },
       items: 5,
     },
@@ -29,7 +27,7 @@ function SliderTwo({ showData }) {
     <div className={classes.wrapper} id="sliding-wrapper">
       <div className={classes.circle}></div>
       <div className={classes.circletwo}></div>
-      <Carousel responsive={responsive} draggable={false} arrows={true}
+      <Carousel responsive={responsive} draggable={true} arrows={true}
         >
         <Link to="places">
         <div className={classes.div}>
@@ -167,6 +165,7 @@ function SliderTwo({ showData }) {
         </div>
         </Link>
       </Carousel>
+      <p className="country-count" id="placeCount">34 Chapter</p>
     </div>
   );
 }

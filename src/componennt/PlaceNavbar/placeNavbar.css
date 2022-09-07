@@ -45,7 +45,7 @@
   .design-wrapper{
     position: absolute;
     width: 15%;
-    z-index: 10;
+    z-index: 10000;
     text-align: left;
     justify-content: baseline;
     top: 60%;
@@ -137,10 +137,10 @@
 
     .place-circle-two{
       position: absolute;
-      top: 600px;
-      left:250px;
+      top: 750px;
+      right:0px;
       bottom: 0px;
-      z-index: 999;
+      z-index: -1;
     }
 
     .design-wrapper{
@@ -279,6 +279,11 @@ li.link.back{
       position: absolute;
       left: -40px;
       top: -30px;
+  }
+
+  .place-circle-two{
+    position: absolute;
+    top: 900px;
   }
   }
 

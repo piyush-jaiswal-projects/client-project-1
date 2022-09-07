@@ -654,6 +654,11 @@ ul.footer__menu.custom-menu{
   text-decoration: none;
 }
 
+#roadmap{
+  position: relative;
+  bottom: 6.5rem;
+}
+
 /*
 ----------------------------------------------------------------
 	Input
@@ -1152,6 +1157,8 @@ h6,
   background-position: center bottom;
   padding: 50px 0;
   text-align: center;
+  position: relative;
+  bottom: 6.5rem;
 }
 
 .section#whitepaper .section__wrapper {
@@ -1178,6 +1185,8 @@ h6,
   background-image: url("../public/images/sectiontokenomics.jpg");
   padding: 50px 0;
   text-align: center;
+  position: relative;
+  bottom: 6.5rem;
 }
 
 .section#tokenomics .section__wrapper {
@@ -1251,6 +1260,8 @@ h6,
 .section#about {
   padding: 50px 0;
   min-height: auto;
+  position: relative;
+  bottom: 6.5rem;
 }
 
 .section#about h2,
@@ -1274,6 +1285,8 @@ h6,
 
 .section#footer {
   min-height: auto;
+  position: relative;
+  bottom: 6.5rem;
 }
 
 /* Media Queries sizes */

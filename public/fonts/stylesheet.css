@@ -1,0 +1,20 @@
+@font-face {
+    font-family: 'gilroy';
+    src: url('gilroy-bold-webfont.woff2') format('woff2'),
+         url('gilroy-bold-webfont.woff') format('woff');
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: 'gilroy';
+    src: url('gilroy-regular-webfont.woff2') format('woff2'),
+         url('gilroy-regular-webfont.woff') format('woff');
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: 'remixcon';
+    src: url('remixicon.css') format('woff2'),
+         url('remixicon.css.woff') format('woff');
+    font-weight: 700;
+}

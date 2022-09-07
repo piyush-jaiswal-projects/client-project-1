@@ -1,0 +1,60 @@
+.shift-drop-down-div{
+    display: none;
+}
+
+.shift-large{
+    display: block;
+}
+
+.shift-drop-down-btn{
+    background: none;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    text-align: center;
+    display: none;
+}
+
+.shift-drop-down-div{
+    background-color: #76F9C4;
+    width: 80%;
+    margin: auto;
+    padding: auto;
+    border-radius: 1rem;
+    display: none;
+    margin-bottom: 0;
+}
+
+.custom-section-item{
+    margin: 0;
+}
+
+.custom-section-button{
+    text-decoration: none;
+    background: none;
+    border: none;
+    outline: none;
+    padding: 0;
+    margin: 0;
+    color: #2B2A35 !important;
+    font-size: 18px !important;
+    border-bottom: none !important;
+}
+
+@media screen and (max-width: 550px) {
+    .shift-drop-down-div{
+        display: none;
+    }
+
+    .shift-drop-down-btn{
+        display: block;
+        text-align: center;
+        margin: auto;
+        padding: auto;
+    }
+
+    .shift-large{
+        display: none;
+    }
+
+}

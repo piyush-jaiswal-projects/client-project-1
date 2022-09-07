@@ -1,0 +1,98 @@
+.wrapper {
+  margin: 3rem 0;
+  position: relative;
+  background: #373443;
+  text-align: center;
+  padding: 5rem 0;
+  overflow: hidden;
+  transition: all 1s ease;
+}
+.image {
+  border-radius: 15px;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.div {
+  position: relative;
+  width: 278px;
+  height: 346px;
+}
+.circle {
+  position: absolute;
+  width: 505px;
+  height: 505px;
+  left: -205px;
+  top: -73px;
+  background: #15562d;
+  filter: blur(300px);
+}
+.circletwo {
+  position: absolute;
+  width: 505px;
+  height: 505px;
+  right: -13rem;
+  top: 86px;
+  background: #15562d;
+  filter: blur(300px);
+}
+.overlay {
+  position: absolute;
+  bottom: -90px;
+  left: -11%;
+  z-index: -1;
+}
+.overlaytext {
+  position: absolute;
+  color: white;
+  left: 1rem;
+  top: 14rem;
+  text-align: left;
+}
+.overlaytwo {
+  position: absolute;
+  left: -16px;
+  z-index: -1;
+  bottom: -24px;
+  display: none;
+}
+@media (max-width: 600px) {
+  .div {
+    width: 110px;
+    height: 170px;
+  }
+  .circle {
+    width: 300px;
+    height: 300px;
+    left: -247px;
+    top: -133px;
+    filter: blur(158px);
+  }
+  .circletwo {
+    width: 300px;
+    height: 300px;
+    filter: blur(157px);
+    right: -15.7rem;
+  }
+  .overlay {
+    display: none;
+  }
+  .overlaytwo {
+    display: block;
+  }
+  .wrapper {
+    padding: 2rem 0;
+  }
+  h2 {
+    font-size: 0.8rem;
+    margin-bottom: 0;
+  }
+
+  #caption {
+    font-size: 0.1rem !important;
+  }
+  .overlaytext {
+    top: 5.4rem;
+  }
+}

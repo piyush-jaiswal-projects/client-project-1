@@ -37,6 +37,7 @@
     margin: 0 1rem;
     padding: 0;
     border-radius: 5%;
+    /* width: 200px !important; */
     height: 348px;
     justify-content: center;
     overflow: hidden;
@@ -100,5 +101,9 @@
 
     .slider2-img-div{
         /* width: 5% !important; */
+    }
+
+    .circle,.circleTwo{
+        filter: blur(250px);
     }
 }

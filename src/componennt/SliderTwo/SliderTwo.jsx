@@ -25,7 +25,7 @@ function SliderTwo({ showData }) {
         }
       },
       {
-        breakpoint: 600,
+        breakpoint: 1020,
         settings: {
           slidesToShow: 2,
           slidesToScroll: 2,
@@ -47,7 +47,7 @@ function SliderTwo({ showData }) {
     className: "center",
     infinite: true,
     centerPadding: "60px",
-    slidesToShow: 2.5,
+    slidesToShow: 3,
     slidesToScroll: 1,
     swipeToSlide: true,
     nextArrow: <SampleNextArrowSmall />,
@@ -63,7 +63,7 @@ function SliderTwo({ showData }) {
         }
       },
       {
-        breakpoint: 600,
+        breakpoint: 1020,
         settings: {
           slidesToShow: 2,
           slidesToScroll: 2,

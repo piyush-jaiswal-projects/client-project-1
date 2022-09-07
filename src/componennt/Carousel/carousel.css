@@ -40,7 +40,7 @@
 
 @keyframes slideMe{
   0%{
-    transform: translateY(-500px);
+    transform: translateY(-70px);
   }
   100%{
     transform: translateY(0px);

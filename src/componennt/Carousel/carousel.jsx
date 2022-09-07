@@ -13,7 +13,7 @@ function SamplePrevArrowLarge(props) {
       position:"absolute",
       left: "50%",
       top: "90%",
-      zIndex: "1000",
+      zIndex: "1",
       cursor: "pointer" }}
       onClick={onClick}
     >
@@ -32,7 +32,7 @@ function SampleNextArrowLarge(props) {
       position:"absolute",
       top: "90%",
       left: "53%",
-      zIndex: "1000",
+      zIndex: "1",
       cursor: "pointer"  }}
       onClick={onClick}
     >
@@ -51,7 +51,7 @@ function SamplePrevArrowSmall(props) {
         position:"absolute",
         left: "40%",
         top: "90%",
-      zIndex: "1000" }}
+      zIndex: "1" }}
         onClick={onClick}
       >
         <img src="./images/icons/1.png" alt=""></img>
@@ -69,7 +69,7 @@ function SamplePrevArrowSmall(props) {
         position:"absolute",
         top: "90%",
         left: "53%",
-        zIndex: "1000"  }}
+        zIndex: "1"  }}
         onClick={onClick}
       >
         <img src="./images/icons/2.png" alt=""></img>
@@ -101,20 +101,16 @@ const settingsSmall = {
 
 function Carousel(){
 
-  const [display, setDisplay] = useState("none");
+  const [slide, setSlide] = useState("no");
 
     function handleClick(){
 
-      if(display === "none"){
+      if(slide === "no"){
         document.getElementById("drop-carousel").classList.toggle("slide-down");
         document.getElementById("sliding-wrapper").style.display="block";
-        setDisplay("block");
+        setSlide("yes");
       }
-      else if(display === "block"){
-        setDisplay("none");
-        document.getElementById("drop-carousel").classList.toggle("slide-down");
-        
-      }
+      
     }
 
 

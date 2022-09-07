@@ -27,7 +27,7 @@ function SliderTwo({ showData }) {
     <div className={classes.wrapper} id="sliding-wrapper">
       <div className={classes.circle}></div>
       <div className={classes.circletwo}></div>
-      <Carousel responsive={responsive} draggable={true} arrows={true}
+      <Carousel responsive={responsive} swipeable={true} draggable={false} arrows={true}
         >
         <Link to="places">
         <div className={classes.div}>

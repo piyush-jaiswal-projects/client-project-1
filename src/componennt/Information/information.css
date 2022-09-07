@@ -76,6 +76,6 @@ li.react-multi-carousel-item--active{
 
 @media screen and (max-width: 800px) {
     .country-count{
-        bottom: 1rem;
+        bottom: 2rem;
     }
 }

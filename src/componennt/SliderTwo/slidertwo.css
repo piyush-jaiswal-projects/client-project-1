@@ -12,25 +12,26 @@
 
 .circle{
     position: absolute;
-  width: 200px;
-  height: 200px;
-  /* left: -247px; */
-  /* top: -10px; */
+  width: 400px;
+  height: 400px;
   left: 0;
   background: #15562d;
-  filter: blur(150px);
+  filter: blur(180px);
   z-index: 0;
+  margin: 0;
+  padding: 0;
 }
 
 .circleTwo{
     position: absolute;
-  width: 200px;
+  width: 400px;
   height: 400px;
   /* right: -13rem;
   top: 86px; */
   right: 0;
   background: #15562d;
-  filter: blur(150px);
+  filter: blur(180px);
+  z-index: 0;
 }
 
 .slider2-item-div{
@@ -38,7 +39,7 @@
     padding: 0;
     border-radius: 5%;
     /* width: 200px !important; */
-    height: 348px;
+    height: 360px;
     justify-content: center;
     overflow: hidden;
     outline: none;
@@ -59,8 +60,11 @@
 
 .overlay{
     border-radius: 5%;
+    top: 50px;
+    position: relative;
+    left: 20px;
     width: 250px;
-    height: 346px;
+    height: 370px;
     z-index: -1;
 }
 
@@ -112,11 +116,16 @@
         height: 300px !important;
     }
 
+    .sliding-wrap{
+        padding: 2.5rem 0 !important;
+    }
+
     .slider2-img{
         width: 7% !important;
     }
 
     .circle,.circleTwo{
+        width: 200px;
         filter: blur(250px);
     }
 }
@@ -125,6 +134,15 @@
 
     .overlay-text h2{
         font-size: 15px;
+    }
+
+    .overlay{ 
+        width: 150px !important;
+        height: 150px !important;
+        top: 70px;
+        left: 0px;
+        z-index: -1;
+        
     }
     
     .overlay-text p{
@@ -145,6 +163,15 @@
     .overlay-text h2{
         font-size: 14px;
     }
+
+    .overlay{ 
+        width: 130px !important;
+        height: 150px !important;
+        top: 42px;
+        left: 0px;
+        z-index: -1;
+        
+    }
     
     .overlay-text p{
         font-size: 12px;
@@ -158,6 +185,15 @@
 @media screen and (max-width: 320px) {
     .overlay-text h2{
         font-size: 12px;
+    }
+
+    .overlay{ 
+        width: 110px !important;
+        height: 150px !important;
+        top: 15px;
+        left: 0px;
+        z-index: -1;
+        
     }
     
     .overlay-text p{

@@ -3,9 +3,12 @@
     background: #373443;
   text-align: center;
   padding: 5rem 0;
-  overflow: hidden;
+  /* overflow: hidden; */
   transition: all 1s ease;
   width: 100%;
+}
+
+.slider2-section{
 }
 
 
@@ -14,7 +17,7 @@
     position: absolute;
   width: 400px;
   height: 400px;
-  left: 0;
+  left: -150px;
   background: #15562d;
   filter: blur(180px);
   z-index: 0;
@@ -24,10 +27,8 @@
 
 .circleTwo{
     position: absolute;
-  width: 400px;
+  width: 200px;
   height: 400px;
-  /* right: -13rem;
-  top: 86px; */
   right: 0;
   background: #15562d;
   filter: blur(180px);
@@ -36,12 +37,11 @@
 
 .slider2-item-div{
     margin: 0 1rem;
-    padding: 0;
+    padding: 1rem;
     border-radius: 5%;
     /* width: 200px !important; */
-    height: 360px;
+    height: auto;
     justify-content: center;
-    overflow: hidden;
     outline: none;
     border: none;
     
@@ -60,12 +60,13 @@
 
 .overlay{
     border-radius: 5%;
-    top: 50px;
+    top: 32px;
     position: relative;
-    left: 20px;
+    left: 15px;
     width: 250px;
     height: 370px;
     z-index: -1;
+    /* border: 2px solid white; */
 }
 
 .overlay-text{
@@ -125,8 +126,17 @@
     }
 
     .circle,.circleTwo{
-        width: 200px;
-        filter: blur(250px);
+        width: 50px;
+        filter: blur(300px);
+        /* filter: none; */
+    }
+
+    .circle{
+        left: 0 !important;
+    }
+
+    .circleTwo{
+        right: 0px;
     }
 }
 
@@ -155,7 +165,7 @@
     }
 
     .slider2-item-div{
-        height: 200px !important;
+        height: 230px !important;
     }
 }
 
@@ -178,7 +188,7 @@
     }
 
     .slider2-item-div{
-        height: 180px !important;
+        height: 200px !important;
     }
 }
 
@@ -201,6 +211,6 @@
     }
 
     .slider2-item-div{
-        height: 150px !important;
+        height: 180px !important;
     }
 }

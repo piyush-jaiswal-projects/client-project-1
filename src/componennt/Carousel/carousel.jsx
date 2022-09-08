@@ -83,7 +83,8 @@ const settingsLarge = {
   centerPadding: "60px",
   slidesToShow: 7,
   slidesToScroll: 1,
-  swipeToSlide: true,
+  swipeToSlide: false,
+  draggable: false,
   nextArrow: <SampleNextArrowLarge />,
   prevArrow: <SamplePrevArrowLarge />
 };

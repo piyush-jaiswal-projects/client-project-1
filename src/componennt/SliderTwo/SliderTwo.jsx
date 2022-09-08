@@ -11,7 +11,8 @@ function SliderTwo({ showData }) {
     centerPadding: "60px",
     slidesToShow: 4.5,
     slidesToScroll: 1,
-    swipeToSlide: true,
+    swipeToSlide: false,
+    draggable: false,
     nextArrow: <SampleNextArrowLarge />,
     prevArrow: <SamplePrevArrowLarge />,
     responsive: [
@@ -166,7 +167,7 @@ function SliderTwo({ showData }) {
     <Link to="/places">
           <div className="slider2-item-div">
           <img className="slider2-img" src="./images/SliderTwo/Rectangle 29.png" alt=""></img>
-          <img className="slider2-img overlay" src="./images/SliderTwo/Rectangle 36.png" alt=""></img>
+          <img className="slider2-img overlay" src="./images/SliderTwo/Rectangle 37.png" alt=""></img>
           <div className="overlay-text">
           <h2>Sumatera Barat</h2>
             <p>
@@ -181,7 +182,7 @@ function SliderTwo({ showData }) {
           <Link to="/places">
           <div className="slider2-item-div">
           <img className="slider2-img" src="./images/SliderTwo/Rectangle 28.png" alt=""></img>
-          <img className="slider2-img overlay" src="./images/SliderTwo/Rectangle 36.png" alt=""></img>
+          <img className="slider2-img overlay" src="./images/SliderTwo/Rectangle 37.png" alt=""></img>
           <div className="overlay-text">
           <h2>Jawa Barat</h2>
             <p>
@@ -196,7 +197,7 @@ function SliderTwo({ showData }) {
           <Link to="/places">
           <div className="slider2-item-div">
           <img className="slider2-img" src="./images/SliderTwo/Rectangle 23.png" alt=""></img>
-          <img className="slider2-img overlay" src="./images/SliderTwo/Rectangle 36.png" alt=""></img>
+          <img className="slider2-img overlay" src="./images/SliderTwo/Rectangle 37.png" alt=""></img>
           <div className="overlay-text">
           <h2>Bali</h2>
             <p>
@@ -211,7 +212,7 @@ function SliderTwo({ showData }) {
           <Link to="/places">
           <div className="slider2-item-div">
           <img className="slider2-img" src="./images/SliderTwo/Rectangle 24.png" alt=""></img>
-          <img className="slider2-img overlay" src="./images/SliderTwo/Rectangle 36.png" alt=""></img>
+          <img className="slider2-img overlay" src="./images/SliderTwo/Rectangle 37.png" alt=""></img>
           <div className="overlay-text">
           <h2>DKI Jakarta</h2>
             <p>
@@ -226,7 +227,7 @@ function SliderTwo({ showData }) {
           <Link to="/places">
           <div className="slider2-item-div">
           <img className="slider2-img" src="./images/SliderTwo/Rectangle 25.png" alt=""></img>
-          <img className="slider2-img overlay" src="./images/SliderTwo/Rectangle 36.png" alt=""></img>
+          <img className="slider2-img overlay" src="./images/SliderTwo/Rectangle 37.png" alt=""></img>
           <div className="overlay-text">
           <h2>Kalimantan Timur</h2>
             <p>
@@ -248,7 +249,7 @@ function SliderTwo({ showData }) {
     <Link to="/places">
           <div className="slider2-item-div">
           <img className="slider2-img" src="./images/SliderTwo/Rectangle 29.png" alt=""></img>
-          <img className="slider2-img overlay" src="./images/SliderTwo/Rectangle 36.png" alt=""></img>
+          <img className="slider2-img overlay" src="./images/SliderTwo/Rectangle 37.png" alt=""></img>
           <div className="overlay-text">
           <h2>Sumatera Barat</h2>
             <p>
@@ -263,7 +264,7 @@ function SliderTwo({ showData }) {
           <Link to="/places">
           <div className="slider2-item-div">
           <img className="slider2-img" src="./images/SliderTwo/Rectangle 28.png" alt=""></img>
-          <img className="slider2-img overlay" src="./images/SliderTwo/Rectangle 36.png" alt=""></img>
+          <img className="slider2-img overlay" src="./images/SliderTwo/Rectangle 37.png" alt=""></img>
           <div className="overlay-text">
           <h2>Jawa Barat</h2>
             <p>
@@ -278,7 +279,7 @@ function SliderTwo({ showData }) {
           <Link to="/places">
           <div className="slider2-item-div">
           <img className="slider2-img" src="./images/SliderTwo/Rectangle 23.png" alt=""></img>
-          <img className="slider2-img overlay" src="./images/SliderTwo/Rectangle 36.png" alt=""></img>
+          <img className="slider2-img overlay" src="./images/SliderTwo/Rectangle 37.png" alt=""></img>
           <div className="overlay-text">
           <h2>Bali</h2>
             <p>
@@ -293,7 +294,7 @@ function SliderTwo({ showData }) {
           <Link to="/places">
           <div className="slider2-item-div">
           <img className="slider2-img" src="./images/SliderTwo/Rectangle 24.png" alt=""></img>
-          <img className="slider2-img overlay" src="./images/SliderTwo/Rectangle 36.png" alt=""></img>
+          <img className="slider2-img overlay" src="./images/SliderTwo/Rectangle 37.png" alt=""></img>
           <div className="overlay-text">
           <h2>DKI Jakarta</h2>
             <p>
@@ -308,7 +309,7 @@ function SliderTwo({ showData }) {
           <Link to="/places">
           <div className="slider2-item-div">
           <img className="slider2-img" src="./images/SliderTwo/Rectangle 25.png" alt=""></img>
-          <img className="slider2-img overlay" src="./images/SliderTwo/Rectangle 36.png" alt=""></img>
+          <img className="slider2-img overlay" src="./images/SliderTwo/Rectangle 37.png" alt=""></img>
           <div className="overlay-text">
           <h2>Kalimantan Timur</h2>
             <p>
